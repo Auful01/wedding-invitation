@@ -92,7 +92,7 @@
                 <div class="mt-3">
                     <p class="fw-bold m-0">Bank Mandiri</p>
                     <div class="text-center d-flex justify-content-center align-items-center">
-                        <p class="m-0 my-auto">1440017300580</p>
+                        <p class="m-0 my-auto">1410018866897</p>
                         <button class="btn btn-sm" onclick="navigator.clipboard.writeText('1440017300580')">
                             <span class="material-symbols-outlined my-auto text-white" style="font-size: 20px;">
                             content_copy
@@ -100,7 +100,7 @@
 
                         </button>
                     </div>
-                    <p>a.n. Qorie' Insyira Fitria</p>
+                    <p>a.n. Muhammad Auful Kirom</p>
                 </div>
             </div>
         </div>
