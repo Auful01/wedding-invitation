@@ -21,6 +21,9 @@
                 <p class="mt-3" style="font-size: 30px" id="nama">
                     -
                 </p>
+                <small id="tempat">
+
+                </small>
             </div>
         </div>
     </section>
@@ -180,6 +183,7 @@
                 method: 'GET',
                 success: function(response) {
                     $('#nama').text(response.name); // Assuming the response contains a 'name' field
+                    $('#tempat').text(response.address); // Assuming the response contains an 'address' field
                 },
                 error: function() {
                     console.error('Failed to fetch guest name');
