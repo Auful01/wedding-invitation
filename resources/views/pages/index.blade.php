@@ -53,17 +53,17 @@
         <div class="card border-0" style="width: 100%; max-width: 600px;background-color: #f8f9fa17;" data-aos="fade-left">
             <div class="card-body text-white">
                 <h2 class="" style="font-size: 40px">Akad Nikah</h2>
-                <p class="mt-5">Kamis, 26 Juni 2025</p>
+                <p class="mt-2">Kamis, 26 Juni 2025</p>
                 <p>09.00 WIB - Selesai</p>
                 <b>Kediaman Mempelai Wanita</b>
                 <p>Jl. Bunga Cempaka Indah No. 7, Kel. Jatimulyo, Kec. Lowokwaru, Kota Malang</p>
             </div>
         </div>
 
-         <div class="card border-0 mt-5" style="width: 100%; max-width: 600px;background-color: #f8f9fa17;" data-aos="fade-right">
+         <div class="card border-0 mt-2" style="width: 100%; max-width: 600px;background-color: #f8f9fa17;" data-aos="fade-right">
             <div class="card-body text-white">
-                <h2 class=" mt-5" style="font-size: 40px">Resepsi Pernikahan</h2>
-                <p class="mt-5">Ahad, 29 Juni 2025</p>
+                <h2 class=" mt-2" style="font-size: 40px">Resepsi Pernikahan</h2>
+                <p class="mt-2">Ahad, 29 Juni 2025</p>
                 <p>14.00 WIB - Selesai</p>
                 <b>Kediaman Mempelai Pria</b>
                 <p>Dsn. Pandewatan, Desa Punggul RT 02 RW 03, Kec. Gedangan, Kab. Sidoarjo</p>
