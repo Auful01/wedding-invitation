@@ -19,7 +19,7 @@
                 <p>Kepada</p>
                 <p >Bapak/Ibu/Saudara(i)</p>
                 <p class="mt-3" style="font-size: 30px" id="nama">
-                    test
+                    -
                 </p>
             </div>
         </div>
