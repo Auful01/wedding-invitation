@@ -11,3 +11,5 @@ Route::get('/user', function (Request $request) {
 
 Route::post('/guests', [GuestController::class, 'store'])->name('guests.store');
 Route::get('/guests/{id}', [GuestController::class, 'getGuest'])->name('guests.get');
+
+Route::post('/greetings', [GuestController::class, 'greets'])->name('guests.greet');

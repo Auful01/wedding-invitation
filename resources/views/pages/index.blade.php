@@ -161,18 +161,38 @@
         $('#submit-greetings').on('click', function(e) {
             e.preventDefault();
             const message = $('#message').val();
-            const konfirm = $('#konfirm').val();
-
-            if (message && konfirm) {
-                // Simulate sending data to the server
-                console.log('Pesan:', message);
-                console.log('Konfirmasi Kehadiran:', konfirm);
-                alert('Pesan berhasil dikirim!');
-                $('#message').val('');
-                $('#konfirm').val('');
-            } else {
-                alert('Mohon isi semua field!');
+            const guestId = new URLSearchParams(window.location.search).get('guestId');
+            if (!message) {
+                alert('Pesan tidak boleh kosong!');
+                return;
             }
+
+            if (!guestId) {
+                swal({
+                    title: 'Error',
+                    text: 'Guest ID tidak ditemukan. Silakan coba lagi.',
+                    icon: 'error',
+                });
+                return;
+
+            }
+
+            $.ajax({
+                url: '/api/greetings', // Ganti dengan endpoint API yang sesuai
+                method: 'POST',
+                data: {
+                    message: message,
+                },
+                success: function(response) {
+                    // Tampilkan pesan sukses atau lakukan tindakan lain
+                    alert('Pesan berhasil dikirim!');
+                    $('#message').val(''); // Kosongkan textarea setelah pengiriman
+                },
+                error: function() {
+                    alert('Gagal mengirim pesan. Silakan coba lagi.');
+                }
+            });
+
         });
 
 
