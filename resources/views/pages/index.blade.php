@@ -40,6 +40,9 @@
                 <h2 class="dynalight-regular" style="font-size: 30px">Qorie' Insyira Fitria</h2>
                 <p>Putra dari Bapak Januar Sasongko & Ibu Sri Rosliawati</p>
             </div>
+            <p class="col-md-12 windsong-medium m-0" style="font-size: 50px; margin: 0;">
+                &
+            </p>
             <div class="col-md-6">
                 <h2 class="dynalight-regular" style="font-size: 30px">Muhammad Auful Kirom</h2>
                 <p>Putri dari Bapak Santoso & Ibu Khusnul Khotimah</p>
